@@ -5,13 +5,11 @@ An intelligent system for parsing and validating bank checks using OCR and AI, d
 ## Screenshots
 
 ### Main Interface
-![Main Interface](screenshots/main_interface.png)
+![Main Interface](screenshots/1.PNG)
 
-### Check Processing
-![Check Processing](screenshots/check_processing.png)
 
 ### Processing History
-![Processing History](screenshots/history.png)
+![Processing History](screenshots/2.png)
 
 ## Features
 
