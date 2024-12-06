@@ -9,7 +9,7 @@ An intelligent system for parsing and validating bank checks using OCR and AI, d
 
 
 ### Processing History
-![Processing History](screenshots/2.png)
+![Processing History](screenshots/2.PNG)
 
 ## Features
 
