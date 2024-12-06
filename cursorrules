@@ -1,0 +1,60 @@
+{
+  "language": "python",
+  "formatter": {
+    "line_length": 100,
+    "indent_size": 4
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "E501": false,
+      "W503": true,
+      "F401": true
+    }
+  },
+  "frameworks": {
+    "flask": {
+      "default_routes": true,
+      "templates_directory": "templates",
+      "static_directory": "static"
+    },
+    "streamlit": {
+      "theme": "light",
+      "max_upload_size": "10MB"
+    }
+  },
+  "database": {
+    "type": "sqlite",
+    "filename": "checks.db"
+  },
+  "integration": {
+    "ocr": {
+      "engine": "tesseract",
+      "languages_supported": ["eng", "fra", "spa"],
+      "preprocessing": {
+        "noise_reduction": true,
+        "skew_correction": true
+      }
+    },
+    "image_processing": {
+      "engine": "opencv",
+      "max_image_size": "5MB"
+    },
+    "ai_model": {
+      "framework": "tensorflow",
+      "model": "fraud_detection_model.h5"
+    }
+  },
+  "testing": {
+    "framework": "pytest",
+    "coverage": 90
+  },
+  "security": {
+    "csrf_protection": true,
+    "encryption": "AES256",
+    "validation": {
+      "date_check": true,
+      "amount_check": true
+    }
+  }
+}
